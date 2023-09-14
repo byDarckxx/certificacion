@@ -1,0 +1,33 @@
+Al token hay que asignarle la opción de full repo, los comandos que se deben ejecutar de manera progresiva son:
+
+Primero crear el repositorio y guardar el link para apuntar a el luego.
+
+Crear de manera local la carpeta que será utilizada para almacenar los cambios de manera local.
+
+Comandos:
+
+git init
+
+git config --global user.email
+git config --global user.name
+
+git remote add origin (URL de github con extención .git)
+git remote --verbose (para verificar url destino)
+
+git add (archivo)
+
+git commit -m "texto o mensaje de referencia, para visualizar cambio"
+
+git log (para conocer los cambios realizados y por quien de manera local)
+
+git status (para conocer si debemos realizar algun commit en caso de necesitar)
+
+Por ultimo se utiliza el comando:
+
+git push origin master
+
+Requerirá 2 campos:
+
+username 
+
+password (Personal Access Token)
